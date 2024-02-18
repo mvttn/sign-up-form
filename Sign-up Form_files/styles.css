@@ -23,24 +23,14 @@ img {
   flex-direction: column;
 }
 
-h2,
-p {
-  padding: 36px;
-  padding-bottom: 0;
-}
-
-button[type="submit"] {
-  margin: 36px;
-  padding: 12px 36px 12px 36px;
-  border: 0;
-  border-radius: 6px;
+.inner-container > h1 {
+  padding: 24px;
 }
 
 .input-fields {
   display: flex;
   box-shadow: 0px 5px 5px rgb(222, 220, 220);
-  padding: 36px;
-  padding-top: 0;
+  padding: 24px;
   gap: 100px;
 }
 
