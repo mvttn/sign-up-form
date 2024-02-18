@@ -10,7 +10,7 @@ img {
 }
 
 .main-image {
-  width: 75vh;
+  width: 60vh;
   height: 100vh;
 }
 
@@ -23,16 +23,18 @@ img {
   flex-direction: column;
 }
 
-h2,
+h3,
 p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 36px;
+  padding-top: 0;
   padding-bottom: 0;
   color: #233c43;
 }
 
 button[type="submit"] {
   margin: 36px;
+  margin-bottom: 24px;
   padding: 16px 56px 16px 56px;
   border: 0;
   border-radius: 6px;
@@ -51,10 +53,10 @@ button[type="submit"]:hover {
 
 .input-fields {
   display: flex;
-  box-shadow: 0px 5px 5px rgb(207, 207, 207);
   padding: 36px;
   padding-top: 0;
   gap: 100px;
+  box-shadow: 0px 5px 5px rgb(207, 207, 207);
 }
 
 .col {
@@ -72,12 +74,12 @@ button[type="submit"]:hover {
   height: 20vh;
   top: 15%;
   min-width: 100%;
-  background-color: #000000f4;
+  background-color: #101719;
   opacity: 0.5;
   overflow: hidden;
   color: #f6f5f4;
   font-family: "Orbitron", sans-serif;
-  font-size: 28px;
+  font-size: 1rem;
   justify-content: center;
   align-items: center;
 }
@@ -112,8 +114,30 @@ label {
 }
 
 input {
-  padding: 6px 6px 6px 0px;
+  padding: 6px;
   min-width: 220px;
   border: 1px solid #e5e7eb;
   border-radius: 5px;
+}
+
+input:focus {
+  box-shadow: 0px 2px 5px rgb(207, 207, 207);
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+.grey {
+  padding-top: 15vh;
+  padding-bottom: 5vh;
+  background-color: #f7f8fa;
+}
+
+.inner-container > p {
+  padding-right: 25vh;
+}
+
+h3 {
+  font-size: 20px;
 }
