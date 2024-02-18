@@ -1,0 +1,28 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 10vh;
+  height: 10vh;
+}
+
+.main {
+  width: 100vh;
+  height: 100vh;
+  margin-right: 5vh;
+}
+
+.outer-container {
+  display: flex;
+}
+.inputFields {
+  display: flex;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
